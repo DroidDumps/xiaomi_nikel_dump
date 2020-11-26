@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EccTable>
+    <!-- 
+        The attribute definition for tag EccEntry:
+        - Ecc: the emergnecy number
+        - Category: the service category
+        - Condition: there are following values:
+            - 0: ecc only when no sim
+            - 1: ecc always
+            - 2: MMI will show ecc but send to nw as normal call
+    -->
+    <EccEntry Ecc="112" Category="0" Condition="1" Mccmnc=""/>
+    <EccEntry Ecc="911" Category="0" Condition="1" Mccmnc=""/>
+    <EccEntry Ecc="000" Category="0" Condition="1" Mccmnc=""/>
+    <EccEntry Ecc="08" Category="0" Condition="1" Mccmnc=""/>
+    <!--LCSH MOD:huangchunyan 2016-04-05 START W_And00387226-->
+    <EccEntry Ecc="110" Category="0" Condition="2" Mccmnc=""/>
+    <!--LCSH MOD:huangchunyan 2016-09-23  -->
+    <EccEntry Ecc="118" Category="0" Condition="2" Mccmnc=""/>
+    <EccEntry Ecc="120" Category="0" Condition="2" Mccmnc=""/>
+    <EccEntry Ecc="994" Category="0" Condition="2" Mccmnc=""/>
+    <EccEntry Ecc="113" Category="0" Condition="2" Mccmnc=""/>
+        <!--LCSH MOD:huangchunyan 2016-04-05 END-->
+    <EccEntry Ecc="119" Category="0" Condition="2" Mccmnc=""/>
+    <EccEntry Ecc="122" Category="0" Condition="2" Mccmnc=""/>
+    <EccEntry Ecc="999" Category="0" Condition="2" Mccmnc=""/>
+    <!--modify by czw 20180320-->
+    <EccEntry Ecc="100" Category="0" Condition="1" Mccmnc="il"/>
+    <EccEntry Ecc="101" Category="0" Condition="2" Mccmnc="il"/>
+    <EccEntry Ecc="102" Category="0" Condition="2" Mccmnc="il"/>
+    <EccEntry Ecc="1221" Category="0" Condition="2" Mccmnc="il"/>
+    <!--end-->
+</EccTable>

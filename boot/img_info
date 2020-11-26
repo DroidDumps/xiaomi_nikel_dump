@@ -1,0 +1,12 @@
+kernel=kernel
+ramdisk=ramdisk
+page_size=2048
+kernel_size=8460103
+ramdisk_size=2552000
+base_addr=0x40078000
+kernel_offset=0x00008000
+ramdisk_offset=0x04f88000
+tags_offset=0x03f88000
+cmd_line='bootopt=64S3,32N2,64N2'
+board="V10.2.1.0.MBFMI"
+format=gzip

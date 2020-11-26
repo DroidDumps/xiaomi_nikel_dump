@@ -1,0 +1,31 @@
+# MTK project .rc configure
+
+import init.project.rc
+
+# MIUI ADD: Start
+    mkdir /cust 0771 system system
+
+on post-fs
+    # We chown/chmod /cust again so because mount is run as root + defaults
+    chown system system /cust
+    chmod 0771 /cust
+    # We restorecon /cust in case the cust partition has been reset.
+    restorecon_recursive /cust
+
+    # create the lost+found directories, so as to enforce our permissions
+    mkdir /cust/lost+found 0770 root root
+
+# Otp sets ro.boot.cpuid property. See system/core/otp
+service otp /system/bin/otp --set-prop
+    class core
+    oneshot
+
+# End
+
+# *** DO NOT import the new rc file after this line ***
+
+service mtservice /system/bin/mtd
+    class late_start
+
+service vsimservice /system/bin/vsimd
+    class late_start

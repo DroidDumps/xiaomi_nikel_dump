@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!DOCTYPE MediaSettings [
+  <!ATTLIST Operator name (CMCC|TMO|VzW) #REQUIRED>
+  <!ATTLIST VideoProfile name (h264|h263|m4v|hevc) #REQUIRED>
+  <!ATTLIST VideoProfile profile CDATA #REQUIRED>
+  <!ATTLIST VideoProfile level CDATA #REQUIRED>
+  <!ATTLIST VideoProfile width CDATA #REQUIRED>
+  <!ATTLIST VideoProfile height CDATA #REQUIRED>
+  <!ATTLIST VideoProfile framerate CDATA #REQUIRED>
+  <!ATTLIST VideoProfile Iinterval CDATA #REQUIRED>
+  <!ATTLIST VideoProfile minBitRate CDATA #REQUIRED>
+  <!ATTLIST VideoProfile maxBitRate CDATA #REQUIRED>
+]>
+
+<!--
+     This file is used to declare the multimedia profiles and capabilities
+     on an android-powered device.
+-->
+<MediaSettings>
+  <!--
+         If a codec is not enabled, it is invisible to the applications
+         In other words, the applications won't be able to use the codec
+         or query the capabilities of the codec at all if it is disabled
+    -->
+  <Operator name="Smarfren"/>
+	
+  <!--
+	  Profile
+	  1:Baseline
+	  4:Main
+	  16:High
+  
+	  Level:
+	  2:LEVEL_1	
+	  4:LEVEL_1b	
+	  5:LEVEL_1_1	
+	  6:LEVEL_1_2	
+	  7:LEVEL_1_3	
+	  8:LEVEL_2	
+	  10:LEVEL_2_1
+	  12:LEVEL_2_2
+	  13:LEVEL_3
+	  15:LEVEL_3_1
+	  17:LEVEL_3_2
+  -->  
+	
+  <VideoProfile name="h264" profile="1" level="5" width="320" height="240" framerate="10" Iinterval="1" minBitRate="145000" maxBitRate="270000" />
+  <VideoProfile name="h264" profile="1" level="6" width="320" height="240" framerate="15" Iinterval="1" minBitRate="218000" maxBitRate="384000" />
+  <VideoProfile name="h264" profile="1" level="7" width="320" height="240" framerate="30" Iinterval="1" minBitRate="218000" maxBitRate="384000" />
+  <VideoProfile name="h264" profile="1" level="12" width="640" height="480" framerate="15" Iinterval="1" minBitRate="286000" maxBitRate="512000" />
+  <VideoProfile name="h264" profile="1" level="13" width="640" height="480" framerate="30" Iinterval="1" minBitRate="512000" maxBitRate="1024000" />
+   
+  <VideoQuality name="fine" format="h264" profile="1" level="13"/>
+  <VideoQuality name="high" format="h264" profile="1" level="12"/>
+  <VideoQuality name="medium" format="h264" profile="1" level="6"/>
+  <VideoQuality name="low" format="h264" profile="1" level="5"/>
+
+  <DefaultVideoQuality name="medium" />
+</MediaSettings>

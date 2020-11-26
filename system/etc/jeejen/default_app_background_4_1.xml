@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<background xmlns:launcher="http://schemas.android.com/apk/res/com.jeejen.home">
+    <item package="" class="com.jeejen.home.launcher.SettingsActivity" background="@drawable/workspace_app_bg_gray_blue_4_1" /> <!-- 桌面设置  -->
+    <item package="" class="com.jeejen.helper.ui.HelperActivity" background="@drawable/workspace_app_bg_light_green_4_1" /> <!-- 帮助 -->
+    <item package="" class="com.jeejen.home.launcher.BoxActivity" background="@drawable/workspace_app_bg_gray_blue_4_1" /> <!-- 更多  -->
+    <item package="" class="com.jeejen.home.launcher.GalleryActivity" background="@drawable/workspace_app_bg_light_yello_4_1" /> <!-- 图库 -->
+    <item package="" class="com.jeejen.home.launcher.CameraActivity" background="@drawable/workspace_app_bg_gray_4_1" /> <!-- 拍照 -->
+    <item package="" class="com.jeejen.home.launcher.MusicActivity" background="@drawable/workspace_app_bg_purple_4_1" /><!-- 音乐 -->
+    <item package="" class="com.jeejen.home.launcher.CalculatorActivity" background="@drawable/workspace_app_bg_terreous_4_1" /><!-- 计算器 -->
+    <item package="" class="com.jeejen.contact.ui.ContactListActivity" background="@drawable/workspace_app_bg_yello_4_1" /><!-- 联系人 -->
+    <item package="" class="com.jeejen.phone.ui.PhoneListActivity" background="@drawable/workspace_app_bg_green_4_1" /><!-- 电话 -->
+    <item package="" class="com.jeejen.mms.ui.MmsListActivity" background="@drawable/workspace_app_bg_blue_4_1" /><!-- 短信 -->
+    <item package="com.android.gallery3d" class="" background="@drawable/workspace_app_bg_light_yello_4_1" /> <!-- 图库 -->
+    <item package="com.android.camera" class="" background="@drawable/workspace_app_bg_gray_4_1" /> <!-- 拍照 -->
+
+    <item package="com.android.calculator2" class="" background="@drawable/workspace_app_bg_terreous_4_1" /><!-- 计算器 -->
+    <item package="com.jeejen.magnifier" class="" background="@drawable/workspace_app_bg_gray_blue_4_1" /><!-- 放大镜 -->
+    <item package="com.android.music" class="" background="@drawable/workspace_app_bg_purple_4_1" /><!-- 音乐 -->
+    <item package="com.thunderst.radio" class="" background="@drawable/workspace_app_bg_orange_4_1" /><!-- 收音机 -->
+    <item package="com.tencent.mm" class="" background="@drawable/workspace_app_bg_dark_green_4_1" /><!-- 微信 -->
+    
+    <item package="com.jeejen.flashlight" background="@drawable/workspace_app_bg_dray_blue_4_1" /> <!-- 手电筒 -->
+    <!--<item package="" class="" background="@drawable/workspace_app_bg_blue" />--> <!-- 商店  -->
+    <item package="com.android.settings" class="com.android.settings.Settings" background="@drawable/workspace_app_bg_gray_blue_4_1" /> <!-- 设置  -->
+	<item package="com.jeejen.store" class="com.jeejen.store.ui.StoreActivity" background="@drawable/workspace_app_bg_light_yello_4_1" />
+	<!--健康知识-->
+	<item package="com.jeejen.knowledge" class="com.jeejen.knowledge.ui.WebViewActivity" background="@drawable/workspace_app_bg_cyanine_4_1" />
+	<!-- 录音机 -->
+	<item package="" class="com.jeejen.soundrecorder.ui.RecorderActivity" background="@drawable/workspace_app_bg_red_4_1" />
+</background>

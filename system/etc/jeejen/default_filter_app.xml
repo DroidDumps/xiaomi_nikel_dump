@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filter xmlns:launcher="http://schemas.android.com/apk/res/com.jeejen.home">
+    <item package="com.jeejen.family.miui" class="com.jeejen.home.launcher.Launcher" />
+    <item package="com.jeejen.family.miui" class="com.jeejen.home.launcher.SpringboardActivity" />
+
+    <item package="com.jeejen.family" class="com.jeejen.home.launcher.Launcher" />
+    <item package="com.jeejen.family" class="com.jeejen.home.launcher.SpringboardActivity" />
+
+    <item package="com.jeejen.family.j1" class="com.jeejen.home.launcher.Launcher" />
+    <item package="com.jeejen.family.j1" class="com.jeejen.home.launcher.SpringboardActivity" />
+
+    <item package="com.android.settings" class="com.android.settings.MiuiSettings" />
+    <item package="com.android.thememanager" class="" />
+    <!--  <item package="com.android.settings" class=""></item>
+    <item package="com.android.mms" class="" />
+    <item package="com.android.soundrecorder" class="" />
+    <item package="com.android.settings" class="com.android.settings.applications.ManageTasks" />
+    <item package="com.android.settings" class="com.android.settings.applications.ManageApplications" />
+    <item package="com.android.stk" class="" />
+    <item package="com.android.stk1" class="" />
+    <item package="com.adups.fota" class="" />
+    <item package="com.iflytek.cmcc" class="" />
+    <item package="cn.com.fetion" class="" />
+    <item package="cn.emagsoftware.gamehall" class="" />
+    <item package="com.huawei.pisa.activity" class="" />
+    <item package="com.baidu.browser.apps_mr" class="" />
+    <item package="com.baidu.searchbox" class="" />
+    <item package="com.baidu.input" class="" />
+    <item package="com.tencent.mtt" class="" />
+    <item package="com.oupeng.browser" class="" />
+    <item package="com.longsung.soshelp" class="" />
+    <item package="com.longsung.mkey" class="" />
+    -->
+</filter>
+

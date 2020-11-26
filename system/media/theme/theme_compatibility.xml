@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<MIUI_Theme_Compatibility>
+
+<!-- 正常升级，以10为单位递增版本号 -->
+<version>130</version>
+
+<fallback>
+    <item package="com.android.settings" resourceType="drawable" property1="device_description_cpu.webp" property2="device_description_image_0.png" propertyExtra="" />
+    <item package="com.android.settings" resourceType="drawable" property1="device_description_battery.webp" property2="device_description_image_1.png" propertyExtra="" />
+    <item package="com.android.settings" resourceType="drawable" property1="device_description_camera.webp" property2="device_description_image_2.png" propertyExtra="" />
+    <item package="com.android.settings" resourceType="drawable" property1="device_description_double_camera.webp" property2="device_description_image_2.png" propertyExtra="" />
+    <item package="com.android.settings" resourceType="drawable" property1="device_description_screen.webp" property2="device_description_image_3.png" propertyExtra="" />
+    <item package="com.android.settings" resourceType="drawable" property1="device_description_resolution.webp" property2="device_description_image_4.png" propertyExtra="" />
+    <item package="com.android.settings" resourceType="drawable" property1="device_description_ram.webp" property2="device_description_image_5.png" propertyExtra="" />
+
+    <item package="com.android.systemui" resourceType="drawable" property1="expanded_header_bg_clear.png" property2="expanded_header_bg_default.png" propertyExtra="" />
+    <item package="com.android.systemui" resourceType="drawable" property1="expanded_header_bg_cloudy.png" property2="expanded_header_bg_default.png" propertyExtra="" />
+    <item package="com.android.systemui" resourceType="drawable" property1="expanded_header_bg_fog.png" property2="expanded_header_bg_default.png" propertyExtra="" />
+    <item package="com.android.systemui" resourceType="drawable" property1="expanded_header_bg_hail.png" property2="expanded_header_bg_default.png" propertyExtra="" />
+    <item package="com.android.systemui" resourceType="drawable" property1="expanded_header_bg_haze.png" property2="expanded_header_bg_default.png" propertyExtra="" />
+    <item package="com.android.systemui" resourceType="drawable" property1="expanded_header_bg_rain.png" property2="expanded_header_bg_default.png" propertyExtra="" />
+    <item package="com.android.systemui" resourceType="drawable" property1="expanded_header_bg_rain_1.png" property2="expanded_header_bg_default.png" propertyExtra="" />
+    <item package="com.android.systemui" resourceType="drawable" property1="expanded_header_bg_rain_2.png" property2="expanded_header_bg_default.png" propertyExtra="" />
+    <item package="com.android.systemui" resourceType="drawable" property1="expanded_header_bg_sand.png" property2="expanded_header_bg_default.png" propertyExtra="" />
+    <item package="com.android.systemui" resourceType="drawable" property1="expanded_header_bg_snow.png" property2="expanded_header_bg_default.png" propertyExtra="" />
+    <item package="com.android.systemui" resourceType="drawable" property1="expanded_header_bg_sunny.png" property2="expanded_header_bg_default.png" propertyExtra="" />
+    <item package="com.android.systemui" resourceType="drawable" property1="expanded_header_bg_sunny_1.png" property2="expanded_header_bg_default.png" propertyExtra="" />
+    <item package="com.android.systemui" resourceType="drawable" property1="expanded_header_bg_sunny_2.png" property2="expanded_header_bg_default.png" propertyExtra="" />
+    <item package="com.android.systemui" resourceType="drawable" property1="expanded_header_bg_sunny_hot.png" property2="expanded_header_bg_default.png" propertyExtra="" />
+    <item package="com.android.systemui" resourceType="drawable" property1="expanded_header_bg_cloudy_hot.png" property2="expanded_header_bg_default.png" propertyExtra="" />
+    <item package="com.android.systemui" resourceType="drawable" property1="expanded_header_bg_overcast.png" property2="expanded_header_bg_default.png" propertyExtra="" />
+
+    <item package="miui" resourceType="color" property1="dialog_simple_list_title_color_light" property2="dialog_title_text_color" propertyExtra="" />
+    <item package="miui" resourceType="color" property1="dialog_checkbox_text_color_light" property2="dialog_message_text_color_light" propertyExtra="" />
+    <item package="miui" resourceType="drawable" property1="action_bar_action_mode_bg.9.png" property2="action_mode_bg_light.9.png" propertyExtra="" />
+    <item package="miui" resourceType="drawable" property1="preference_category_background_top_rounded.xml" property2="preference_category_background.9.png" propertyExtra="" />
+    <item package="miui" resourceType="drawable" property1="preference_item_with_icon_bg_top_rounded_normal.xml" property2="preference_first_item_with_icon_bg_normal.9.png" propertyExtra="" />
+    <item package="miui" resourceType="drawable" property1="preference_item_with_icon_bg_top_rounded_pressed.xml" property2="preference_first_item_with_icon_bg_pressed.9.png" propertyExtra="" />
+
+    <item package="com.android.contacts" resourceType="color" property1="dialer_accent_color" property2="tab_text_color_focused" propertyExtra="" />
+    <item package="com.android.contacts" resourceType="color" property1="contacts_accent_color" property2="tab_text_color_focused" propertyExtra="" />
+    <item package="com.android.contacts" resourceType="color" property1="action_bar_tab_text_color_normal_light" property2="tab_text_color_unfocused" propertyExtra="" />
+
+    <item package="com.android.mms" resourceType="color" property1="text_color_attachment_type_name" property2="text_color_attachment_type" propertyExtra="" />
+    <item package="com.android.mms" resourceType="drawable" property1="action_bar_action_mode_bg.9.png" property2="action_mode_bg_light.9.png" property3="miui" propertyExtra="" />
+</fallback>
+
+<newDefValue>
+</newDefValue>
+
+</MIUI_Theme_Compatibility>

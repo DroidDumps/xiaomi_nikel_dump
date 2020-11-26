@@ -1,0 +1,24 @@
+#!/system/bin/sh
+
+sleep 2
+
+insmod /data/temp/mxt.ko
+
+cd /sys/bus/i2c/devices/4-004a
+
+chown root root *
+chmod 666 update_cfg
+chmod 666 update_fw
+
+echo 1 > cfg_store
+echo "mxt308u_v10ab.fw" > update_fw
+
+sleep 1
+
+echo "mxt308u_v10ab.raw" > update_cfg
+
+sleep 1
+
+chmod 440 update_cfg
+chmod 440 update_fw
+

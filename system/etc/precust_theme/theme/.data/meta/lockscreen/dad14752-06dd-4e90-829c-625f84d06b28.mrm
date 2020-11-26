@@ -1,0 +1,131 @@
+{
+  "localId": "dad14752-06dd-4e90-829c-625f84d06b28",
+  "onlineId": null,
+  "assemblyId": null,
+  "productId": null,
+  "hash": "86a69d66d72ae65f069fb75a8d777f6635c9d5c1",
+  "platform": 8,
+  "size": 1254418,
+  "updatedTime": 0,
+  "version": "1.0",
+  "authors": {
+    "fallback": "MIUI"
+  },
+  "designers": {
+    "fallback": "MIUI"
+  },
+  "titles": {
+    "bo_CN": "ཚད་འཛིན།",
+    "ro_RO": "Clasic",
+    "es_US": "Clásico",
+    "pt_BR": "Clássico",
+    "th_TH": "คลาสสิก",
+    "bn_BD": "ল্যাসিক",
+    "in_ID": "Klasik",
+    "cs_CZ": "Klasický",
+    "ca_ES": "Classics",
+    "hu_HU": "Klasszikus",
+    "ne_IN": "क्लासिक",
+    "nb_NO": "Klassisk",
+    "gl_ES": "Clásico",
+    "kn_IN": "ಕ್ಲಾಸಿಕ್‌",
+    "ug_CN": "كىلاسسىك",
+    "sk_SK": "Klasický",
+    "es_ES": "Clásico",
+    "nl_NL": "Klassiek",
+    "te_IN": "క్లాసిక్",
+    "ur_IN": "کلاسک",
+    "sq_AL": "Klasik",
+    "sv_SE": "Klassisk",
+    "ta_IN": "கிளாசிக்",
+    "da_DK": "Klassisk",
+    "sr_RS": "Класика",
+    "iw_IL": "קלאסי",
+    "my_MM": "ဂန္ထဝင်မိုး",
+    "kz_KK": "Классикалық",
+    "da_DE": "Klassisch",
+    "hr_HR": "Klasično",
+    "ko_KR": "클래식",
+    "en_US": "Classic",
+    "lt_LT": "Classico",
+    "en_IN": "Classic",
+    "it_IT": "Senza limiti",
+    "ru_RU": "Классический",
+    "el_GR": "Κλασσικό",
+    "pl_PL": "Klasyczny",
+    "be_BY": "Класічны",
+    "tr_TR": "Klasik",
+    "hi_IN": "क्लासिक",
+    "mr_IN": "क्लासिक",
+    "km_KH": "បុរាណ",
+    "fr_FR": "Elégant",
+    "ja_JP": "クラシック",
+    "ms_MY": "Klasik",
+    "or_IN": "କ୍ଲାସିକ୍‌",
+    "zh_TW": "經典",
+    "zh_HK": "經典",
+    "uz_UZ": "Klassik",
+    "eu_ES": "Klasikoa",
+    "ha_NG": "Gargajiya",
+    "as_IN": "ধ্ৰুপদী",
+    "bn_IN": "ক্ল্যাসিক",
+    "it_LT": "Klasikinis",
+    "pa_IN": "ਕਲਾਸਿਕ",
+    "fa_IR": "کلاسیکب",
+    "mt_Mt": "Klassiku",
+    "bg_BG": "Класическа",
+    "vi_VN": "Cổ điển",
+    "hy_AM": "Դասական",
+    "mk_MK": "Класично",
+    "az_AZ": "Klassik",
+    "fi_FI": "Klassinen",
+    "en_GB": "Classic",
+    "gu_IN": "ક્લાસિક",
+    "et_EE": "Klassikaline",
+    "ka_GE": "კლასიკური",
+    "uk_UA": "Класичний",
+    "ml_IN": "ക്ലാസിക്",
+    "ne_NP": "क्लासिक",
+    "bs_BA": "Klasična",
+    "lv_LV": "Klasisks",
+    "ur_PK": "کلاسک",
+    "zh_CN": "经典",
+    "sl_SI": "Klasično",
+    "ar_EG": "كلاسيكي",
+    "pt_PT": "Clássico"
+  },
+  "descriptions": {},
+  "builtInThumbnails": {
+    "en_US": [
+      "en_US_lockscreen_0.jpg"
+    ],
+    "fallback": [
+      "preview_lockscreen_0.jpg"
+    ]
+  },
+  "builtInPreviews": {
+    "en_US": [
+      "en_US_lockscreen_0.jpg"
+    ],
+    "fallback": [
+      "preview_lockscreen_0.jpg"
+    ]
+  },
+  "thumbnails": [],
+  "previews": [],
+  "parentResources": [
+    {
+      "localId": "cfd320b2-e40f-42b1-91db-1ca8e9394352",
+      "resourceCode": "theme",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    }
+  ],
+  "subResources": [],
+  "extraMeta": {},
+  "metaPath": null,
+  "contentPath": null,
+  "rightsPath": null,
+  "screenRatio": "18:9"
+}
